@@ -13,6 +13,8 @@
 		F3D3666525ABA4AB00B115C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D3666425ABA4AB00B115C1 /* Preview Assets.xcassets */; };
 		F3D3667025ABA4AC00B115C1 /* CoreDataPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3666F25ABA4AC00B115C1 /* CoreDataPlayTests.swift */; };
 		F3D3667B25ABA4AC00B115C1 /* CoreDataPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3667A25ABA4AC00B115C1 /* CoreDataPlayUITests.swift */; };
+		F3D3668D25ABA4EF00B115C1 /* TodosList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3D3668B25ABA4EF00B115C1 /* TodosList.xcdatamodeld */; };
+		F3D3669225ABA89C00B115C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3669125ABA89C00B115C1 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		F3D3667625ABA4AC00B115C1 /* CoreDataPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D3667A25ABA4AC00B115C1 /* CoreDataPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPlayUITests.swift; sourceTree = "<group>"; };
 		F3D3667C25ABA4AC00B115C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D3668C25ABA4EF00B115C1 /* TodosList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodosList.xcdatamodel; sourceTree = "<group>"; };
+		F3D3669125ABA89C00B115C1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 			children = (
 				F3D3665D25ABA4A800B115C1 /* CoreDataPlayApp.swift */,
 				F3D3665F25ABA4A800B115C1 /* ContentView.swift */,
+				F3D3669125ABA89C00B115C1 /* Persistence.swift */,
 				F3D3666125ABA4AB00B115C1 /* Assets.xcassets */,
 				F3D3666625ABA4AB00B115C1 /* Info.plist */,
+				F3D3668B25ABA4EF00B115C1 /* TodosList.xcdatamodeld */,
 				F3D3666325ABA4AB00B115C1 /* Preview Content */,
 			);
 			path = CoreDataPlay;
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D3668D25ABA4EF00B115C1 /* TodosList.xcdatamodeld in Sources */,
+				F3D3669225ABA89C00B115C1 /* Persistence.swift in Sources */,
 				F3D3666025ABA4A800B115C1 /* ContentView.swift in Sources */,
 				F3D3665E25ABA4A800B115C1 /* CoreDataPlayApp.swift in Sources */,
 			);
@@ -574,6 +582,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3D3668B25ABA4EF00B115C1 /* TodosList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3D3668C25ABA4EF00B115C1 /* TodosList.xcdatamodel */,
+			);
+			currentVersion = F3D3668C25ABA4EF00B115C1 /* TodosList.xcdatamodel */;
+			path = TodosList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F3D3665225ABA4A800B115C1 /* Project object */;
 }
